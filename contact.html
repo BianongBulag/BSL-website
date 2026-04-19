@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- EDIT META DESCRIPTION BELOW FOR SEO -->
+  <meta name="description" content="Get in touch with Bali Suites Legazpi to book your family-friendly stay in Albay.">
+  <title>Contact Us | Bali Suites Legazpi</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Scoped form styles just for contact page to keep styles.css clean */
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: var(--color-font-secondary);
+      font-weight: 600;
+    }
+    .form-group input, 
+    .form-group textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 1rem;
+    }
+    .form-group input:focus, 
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      box-shadow: 0 0 0 3px rgba(255, 210, 37, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION BAR (NOTE: UPDATE ACROSS ALL HTML FILES) -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <a href="index.html" class="logo-stack">
+        <div class="logo-top">
+          <span class="logo-bali">Bali</span>
+          <span class="logo-suites">Suites</span>
+        </div>
+        <div class="logo-legazpi">Legazpi</div>
+        <div class="logo-tagline">BED & BREAKFAST &bull; EVENTS PLACE &bull; FAMILY RESORT</div>
+      </a>
+    </div>
+    <button class="mobile-menu-btn" aria-label="Toggle Navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rooms.html">Rooms</a></li>
+      <li>
+        <a href="amenities.html">Amenities ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="amenities.html#events">Events Place</a></li>
+          <li><a href="amenities.html#pool">Roof Deck Pool</a></li>
+          <li><a href="amenities.html#viewdeck">View Deck</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="packages.html">Packages ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="packages.html#wedding">Wedding Preparation</a></li>
+          <li><a href="packages.html#team-building">Corporate Team Building</a></li>
+          <li><a href="packages.html#long-term">Long-term Stay</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="discover.html">Discover ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="discover.html#about">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="discover.html#blog">Blog</a></li>
+          <li><a href="discover.html#faq">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html" style="color: var(--color-accent)">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER SECTION -->
+  <div style="background-color: var(--color-bg-alt); padding: 4rem 5%; text-align: center;">
+    <h1 class="hero-title" style="margin-bottom: 0;">Contact Us</h1>
+    <p style="margin-top: 1rem; color: var(--color-font-secondary);">We would love to hear from you. Send us an inquiry!</p>
+  </div>
+
+  <section class="container" style="display: flex; flex-wrap: wrap; gap: 4rem;">
+    <!-- CONTACT INFO -->
+    <div style="flex: 1; min-width: 300px;">
+      <h2 style="font-size: 2rem; color: var(--color-accent);">Get In Touch</h2>
+      <p>Have questions about our rooms, packages, or availability? Reach out to us directly or fill out the form, and our front desk will get back to you shortly.</p>
+      
+      <div style="margin-top: 2rem;">
+        <p><strong>Address:</strong><br>123 Resort Drive, Legazpi City, Albay, Philippines</p>
+        <p><strong>Phone:</strong><br><a href="tel:+639001234567">+63 900 123 4567</a></p>
+        <p><strong>Email:</strong><br><a href="mailto:hello@balisuiteslegazpi.com">hello@balisuiteslegazpi.com</a></p>
+      </div>
+
+      <div style="margin-top: 2rem; padding: 1.5rem; background: var(--color-bg-main); border-radius: var(--radius-md);">
+        <h3>How to get here</h3>
+        <p>We are a 15-minute drive from the Bicol International Airport. Shuttle options are available upon request.</p>
+      </div>
+    </div>
+
+    <!-- INQUIRY FORM -->
+    <div class="card" style="flex: 1; min-width: 300px; padding: 2rem;">
+      <form action="#" method="get">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Juan Dela Cruz">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="juan@example.com">
+        </div>
+        <div class="form-group">
+          <label for="inquiry">What are you inquiring about?</label>
+          <input type="text" id="inquiry" name="inquiry" placeholder="e.g. Family Suite Availability">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Hello, I would like to ask about..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container" style="padding: 0;">
+      <div class="footer-content">
+        <div>
+          <h3>Bali Suites Legazpi</h3>
+          <p>Your warm and cozy home near Mayon Volcano.</p>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <p>📍 123 Resort Drive, Legazpi City, Philippines</p>
+          <p>📞 +63 900 123 4567</p>
+          <p>✉️ hello@balisuiteslegazpi.com</p>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <p>Stay updated with our latest promos!</p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bali Suites Legazpi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
