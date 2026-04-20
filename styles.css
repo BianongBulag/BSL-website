@@ -5,8 +5,8 @@
   /* Color Palette Given By User */
   --color-bg-main: #D5EBF9;
   --color-accent: #FFD225;
-  --color-font-secondary: #404C4E;
-  --color-font-main: #706142 ;
+  --color-font-secondary: #706142;
+  --color-font-main: #404C4E ;
   
   /* Additional Accents derived for depth */
   --color-white: #ffffff;
